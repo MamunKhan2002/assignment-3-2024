@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="./Images/Rectangle 4.png" type="image/x-icon">
     <!-- Link Custom Css Style Here... -->
     <link rel="stylesheet" href="./style/style.css">
+    <!-- font-awesome link -->
+    <script src="https://kit.fontawesome.com/667791b195.js" crossorigin="anonymous"></script>
     <!-- Link Google Font Here -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -570,7 +572,7 @@
             </div>
             <div class="border-2 border-[red-500] w-full border-dashed mt-8 mb-12"></div>
             <!-- Parent div -->
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 items-center">
                 <!-- child div one -->
                 <!-- RThis is Contact -->
                 <div class="space-y-6 border-2 border-[#1313181a] rounded-lg p-5 md:p-10 lg:p-12">
@@ -583,21 +585,19 @@
                     <div class="bg-[#fffcef] pl-8 pt-8 pr-8 pb-12 rounded-2xl">
                         <img src="./images/direct1.png" alt="" download>
                         <h4 class="text-[#13131866] font-normal text-base Manrope mt-6 mb-2">Email :</h4>
-                        <p class="text-primary-black text-xl font-bold Manrope"><a href="mailto: abc@example.com">Email
-                                :
+                        <p class="text-primary-black text-xl font-bold Manrope"><a href="mailto: abc@example.com">
                                 hockeys@support.com</a></p>
                     </div>
                     <div class="bg-[#eff5fe] pl-8 pt-8 pr-8 pb-12 rounded-2xl">
                         <img src="./images/google-maps1.png" alt="" download>
                         <h4 class="text-[#13131866] font-normal text-base Manrope mt-6 mb-2">Email :</h4>
-                        <p class="text-primary-black text-xl font-bold Manrope"><a href="mailto: abc@example.com">Email
-                                :
+                        <p class="text-primary-black text-xl font-bold Manrope"><a href="mailto: abc@example.com">
                                 hockeys@support.com</a></p>
                     </div>
                 </div>
                 <!-- Child div Two Form -->
                 <form action="" class="space-y-4">
-                    <div class="grid grid-cols-1  lg:grid-cols-2 space-y-6 md:space-y-6 lg:space-x-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div class="space-y-4">
                             <label for="" class="text-xl fext-primary-color font-bold Manrope">Your Name</label><br>
                             <input type="text" placeholder="Enter your full name"
@@ -609,7 +609,7 @@
                                 class="input w-full h-[64px] bg-[#f8f8f8] border-none outline-none" />
                         </div>
                     </div>
-                    <div class="grid grid-cols-1  lg:grid-cols-2 space-y-6 md:space-y-6 lg:space-x-6">
+                    <div class="grid grid-cols-1  lg:grid-cols-2  gap-6">
                         <div class="space-y-4">
                             <label for="" class="text-xl fext-primary-color font-bold Manrope">Subject</label><br>
                             <input type="text" placeholder="Enter your subject"
@@ -623,10 +623,11 @@
                     </div>
                     <div class="grid grid-cols-1">
                         <label for="" class="text-xl fext-primary-color font-bold Manrope">Message</label><br>
-                        <textarea class="bg-[#f8f8f8] h-[200px] md:h-[200px] lg:min-h-[370px] border-none outline-none rounded-2xl p-5"
+                        <textarea
+                            class="bg-[#f8f8f8] h-[200px] md:h-[200px] lg:min-h-[390px] border-none outline-none rounded-2xl p-5"
                             placeholder="Write your message"></textarea>
                     </div>
-                    <div class="text-center mt-8">
+                    <div class="text-center">
                         <button
                             class="py-4 w-full text-center bg-primary-color rounded-lg text-xl text-white font-bold">Send
                             Message</button>
@@ -634,8 +635,14 @@
                 </form>
             </div>
             <!-- Social Media Div -->
-            <div>
-
+            <div class="text-center space-y-6 bg-[#f8f8f8] rounded-2xl mt-[40px] py-8">
+                <h3 class="text-4xl text-primary-black font-extrabold Manrope">Social Media</h3>
+                <div class="flex flex-row justify-center items-center gap-6">
+                    <i class="fa-brands fa-x-twitter text-4xl cursor-pointer"></i>
+                    <a href="https://www.facebook.com/mamunkhanbhangura"><i class="fa-brands fa-facebook text-4xl cursor-pointer"></i></a>
+                    <i class="fa-brands fa-instagram text-4xl cursor-pointer"></i>
+                    <a href="https://github.com/MamunKhan2002" target="_blank"><i class="fa-brands fa-github text-4xl cursor-pointer"></i></a>
+                </div>
             </div>
         </section>
     </main>
