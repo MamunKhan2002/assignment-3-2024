@@ -4,3 +4,8 @@ html{
 .Manrope{
     font-family: 'Manrope', sans-serif;
 }
+@media screen and (max-width:366px){
+    .nav-btn{
+        display: none;
+    }
+}
